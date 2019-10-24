@@ -1,8 +1,21 @@
+/* color helper */
+.colors {
+color: hsl(243, 87%, 12%);
+color:  hsl(238, 22%, 44%);
+color:  hsl(224, 93%, 58%);
+color:  hsl(170, 45%, 43%);
+color: hsl(240, 75%, 98%);
+color: hsl(0, 0%, 75%);
+}
+
 body {
     font-family: 'Open Sans', sans-serif;
+    padding: 5%;
 }
-main {
-    margin: 3%;
+h1 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 2.6em;
 }
 .header {
     display: flex;
@@ -17,8 +30,18 @@ main {
 }
 .navbar > a {
     text-decoration: none;
+    color: hsl(238, 22%, 44%);
 }
-
+.main-top-wrapper{
+    display: flex;
+}
+.main-top-wrapper > .text > .input-wrapper >  .btn {
+    width: 300px;
+    background: hsl(224, 93%, 58%); ;
+}
+.image > img{
+    max-width:90%;
+}
 
 
 

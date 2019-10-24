@@ -32,16 +32,43 @@ h1 {
     text-decoration: none;
     color: hsl(238, 22%, 44%);
 }
-.main-top-wrapper{
+.main-top-wrapper, .main-bottom-wrapper {
     display: flex;
 }
+.main-top-wrapper > .text > .input-wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 12%;
+    align-items: center;
+    font-family: 'Raleway', sans-serif;
+}
 .main-top-wrapper > .text > .input-wrapper >  .btn {
-    width: 300px;
-    background: hsl(224, 93%, 58%); ;
+    width: 30%;
+    background: hsl(224, 93%, 58%); 
+    border-radius: 5px;
+    text-align: center;
+    padding: 12px 0px;
+    font-size: 0.9em;
+    font-weight: 600;
+    color: hsl(240, 75%, 98%);
 }
 .image > img{
     max-width:90%;
 }
+.text {
+    padding-right: 16%;
+}
+.text p {
+    font-size: 1.2em;
+}
+#email {
+    width: 60%;
+    height: 35px;
+    border-radius: 5px;
+    border-style: ridge;
+    text-indent: 20px;
+}
+
 
 
 

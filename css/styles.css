@@ -1,0 +1,31 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+main {
+    margin: 3%;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Raleway', sans-serif;
+}
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 20%;  
+}
+.navbar > a {
+    text-decoration: none;
+}
+
+
+
+
+
+.attribution {
+     font-size: 11px; text-align: center; 
+}
+.attribution a {
+     color: hsl(228, 45%, 44%);
+}

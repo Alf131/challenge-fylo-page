@@ -10,12 +10,18 @@ color: hsl(0, 0%, 75%);
 
 body {
     font-family: 'Open Sans', sans-serif;
-    padding: 5%;
+    margin: auto;
+    
 }
 h1 {
     font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 2.6em;
+}
+h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 2.0em;
 }
 .header {
     display: flex;
@@ -31,6 +37,13 @@ h1 {
 .navbar > a {
     text-decoration: none;
     color: hsl(238, 22%, 44%);
+}
+main {
+    background-image: url(/images/bg-curve-desktop.svg) ;
+    background-size: 200% 64%;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    padding: 3%;
 }
 .main-top-wrapper, .main-bottom-wrapper {
     display: flex;
@@ -55,10 +68,10 @@ h1 {
 .image > img{
     max-width:90%;
 }
-.text {
+.main-top-wrapper > .text {
     padding-right: 16%;
 }
-.text p {
+.main-top-wrapper > .text p {
     font-size: 1.2em;
 }
 #email {
@@ -66,16 +79,71 @@ h1 {
     height: 35px;
     border-radius: 5px;
     border-style: ridge;
+    border-color: hsl(243, 87%, 12%);
     text-indent: 20px;
 }
-
-
-
-
-
+.works-link > a {
+    text-decoration: none;
+    color:hsl(170, 45%, 43%);
+    border-bottom: 1px solid; 
+}
+.works-link > a > i {
+    font-size: small;
+}
+.testimonial {
+    width: 45%;
+    font-size: 0.9em; 
+    background-color: white;
+    padding: 5%;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px 5px rgba(209,201,209,1);
+    margin-top: 5%;
+    
+}
+.testimonial img {
+    width: 15%;
+    border-radius: 100%;
+    float: left;
+    margin-right: 20px;
+}
+.testimonial > p {
+    line-height: 22px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.CEO > p {
+    line-height: 22px;
+}
+.bold {
+    font-weight: bold;
+}
 .attribution {
      font-size: 11px; text-align: center; 
 }
 .attribution a {
      color: hsl(228, 45%, 44%);
+}
+.early-access {
+    background-color: hsl(238, 22%, 44%);
+    color: hsl(240, 75%, 98%);
+    padding: 3%;
+    display: flex;
+    align-items: center;
+}
+.early-access .btn {
+    width: 30%;
+    background: hsl(224, 93%, 58%); 
+    border-radius: 5px;
+    text-align: center;
+    padding: 12px 0px;
+    font-size: 0.9em;
+    font-weight: 600;
+    color: hsl(240, 75%, 98%);
+    margin-top: 2%;
+}
+.right-column, .left-column {
+    width: 50%;
+} 
+.left-column {
+    margin-right: 10%;
 }

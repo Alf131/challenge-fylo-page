@@ -133,17 +133,28 @@ main {
 .early-access .btn {
     width: 30%;
     background: hsl(224, 93%, 58%); 
-    border-radius: 5px;
+    border-radius: 2px;
     text-align: center;
     padding: 12px 0px;
-    font-size: 0.9em;
+    font-size: 0.8em;
     font-weight: 600;
     color: hsl(240, 75%, 98%);
     margin-top: 2%;
+}
+.early-access > .left-column > p {
+    margin-right: 14%;
+    letter-spacing: 1px;
 }
 .right-column, .left-column {
     width: 50%;
 } 
 .left-column {
     margin-right: 10%;
+}
+#email-early {
+    width: 60%;
+    height: 45px;
+    border-radius: 5px;
+    text-indent: 20px;
+    border-style: none;
 }

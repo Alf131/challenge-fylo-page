@@ -1,17 +1,6 @@
-/* color helper */
-.colors {
-color: hsl(243, 87%, 12%);
-color:  hsl(238, 22%, 44%);
-color:  hsl(224, 93%, 58%);
-color:  hsl(170, 45%, 43%);
-color: hsl(240, 75%, 98%);
-color: hsl(0, 0%, 75%);
-}
-
 body {
     font-family: 'Open Sans', sans-serif;
     margin: auto;
-    
 }
 h1 {
     font-family: 'Raleway', sans-serif;
@@ -37,16 +26,18 @@ h2 {
 .navbar > a {
     text-decoration: none;
     color: hsl(238, 22%, 44%);
+    font-weight: 600;
 }
 main {
     background-image: url(/images/bg-curve-desktop.svg) ;
-    background-size: 200% 64%;
+    background-size: 230% 53%;
     background-position: bottom;
     background-repeat: no-repeat;
     padding: 3%;
 }
 .main-top-wrapper, .main-bottom-wrapper {
     display: flex;
+    margin: 10% 0;
 }
 .main-top-wrapper > .text > .input-wrapper {
     display: flex;
@@ -65,14 +56,30 @@ main {
     font-weight: 600;
     color: hsl(240, 75%, 98%);
 }
+.image {
+    height: auto;
+    width: 100%;
+}
 .image > img{
     max-width:90%;
 }
 .main-top-wrapper > .text {
-    padding-right: 16%;
+    margin-right: 9%;
 }
 .main-top-wrapper > .text p {
     font-size: 1.2em;
+    font-weight: 600;
+}
+.main-bottom-wrapper {
+    align-items: flex-end; 
+}
+.main-bottom-wrapper > .text {
+    padding-right: 4%;
+    width: 90%;
+}
+.main-bottom-wrapper > .text > p {
+    width: 80%;
+    font-weight: 600;
 }
 #email {
     width: 60%;
@@ -91,7 +98,7 @@ main {
     font-size: small;
 }
 .testimonial {
-    width: 45%;
+    width: 50%;
     font-size: 0.9em; 
     background-color: white;
     padding: 5%;
@@ -100,7 +107,11 @@ main {
     margin-top: 5%;
     
 }
-.testimonial img {
+.testimonial img:first-of-type {
+    width: 7%;
+    height: auto;
+}
+.testimonial img:last-of-type {
     width: 15%;
     border-radius: 100%;
     float: left;
@@ -119,6 +130,10 @@ main {
 }
 .attribution {
      font-size: 11px; text-align: center; 
+     background-color: hsl(243, 87%, 12%);
+     padding-bottom: 3%;
+     margin: 0;
+     color: hsl(240, 75%, 98%);
 }
 .attribution a {
      color: hsl(228, 45%, 44%);
@@ -160,8 +175,14 @@ main {
 }
 .contact {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 100px 100px 100px 100px 100px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100px 50px 50px 50px 50px;
+    align-items: center;
+    padding: 7% 3%;
+    padding-bottom: 3%;
+}
+.contact img {
+    margin-right: 10px;
 }
 .logo-contact {
     grid-column-start: 1;
@@ -229,6 +250,11 @@ main {
     grid-row-start: 2;
     grid-row-end: 3;
 }
+.contact {
+    background-color: hsl(243, 87%, 12%);
+    color: hsl(240, 75%, 98%);
+    padding: 3%;
+}
 .contact > .social {
     display: flex;
     font-size: 1.3em;
@@ -239,5 +265,5 @@ main {
     text-align: center;
     border: 1px solid;
     border-radius: 100%;
-    margin-right: 5px;
+    margin-right: 10px;
 } 

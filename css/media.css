@@ -1,0 +1,99 @@
+@media(max-width:730px){
+    .main-top-wrapper, .main-bottom-wrapper {
+        flex-direction: column;
+    }
+    .image {
+        min-width: 0;
+        order: 1;
+    }
+    .text {
+        order: 2;
+    }
+    .early-access {
+        flex-direction: column;
+    }
+    .right-column, .left-column {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    .early-access > .left-column > p {
+        margin: auto;
+    }
+    #email-early {
+        margin-top: 15px;
+    }
+    .early-access .btn {
+        margin: auto;
+        width: 60%;
+        margin-top: 15px;
+    }
+    /* grid use not rly working well
+    .contact {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 100px 50px 50px 50px 50px;
+        align-items: center;
+        padding: 7% 3%;
+        padding-bottom: 3%;
+    }
+    .about {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 4;
+        grid-row-end: 5;
+    }
+    .jobs {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 5;
+        grid-row-end: 6;
+    }
+    .press {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 6;
+        grid-row-end: 7;
+    } 
+    .blog {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 7;
+        grid-row-end: 8;
+    }
+    .contact-us {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 8;
+        grid-row-end: 9;
+    }
+    .terms {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 9;
+        grid-row-end: 10;
+    }
+    .privacy {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 10;
+        grid-row-end: 11;
+    }
+    .social {
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 11;
+        grid-row-end: 12;
+        justify-self: center;
+    }
+    */
+    .contact {
+        display: block;
+    }
+    .social {
+        justify-content: center;
+    }
+    .email, .blog, .privacy {
+        margin-bottom: 20px;
+    }
+}

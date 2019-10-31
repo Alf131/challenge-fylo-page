@@ -8,6 +8,22 @@
     }
     .text {
         order: 2;
+        text-align: center;
+        margin: auto;
+    }
+    .main-top-wrapper > .text > .input-wrapper {
+        flex-direction: column;
+        padding-right: 0;
+    }
+    .main-top-wrapper > .text {
+        margin-right: 0;
+    }
+    .main-top-wrapper > .text > .input-wrapper > .btn  {
+        width: 95%;
+        margin-top: 20px;
+    }
+    #email {
+        width: 95%;
     }
     .early-access {
         flex-direction: column;

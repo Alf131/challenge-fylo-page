@@ -40,6 +40,9 @@ main {
     display: flex;
     margin: 10% 0;
 }
+.main-top-wrapper {
+    margin-bottom: 25%;
+}
 .main-top-wrapper > .text > .input-wrapper {
     display: flex;
     justify-content: space-between;

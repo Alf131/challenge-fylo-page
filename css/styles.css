@@ -122,6 +122,9 @@ main {
     font-weight: 600;
     letter-spacing: 1px;
 }
+.CEO {
+    padding-bottom: 20px;
+}
 .CEO > p {
     line-height: 22px;
 }
@@ -141,6 +144,7 @@ main {
     padding: 3%;
     display: flex;
     align-items: center;
+    padding-bottom: 10%;
 }
 .early-access .btn {
     width: 30%;
@@ -166,7 +170,7 @@ main {
 #email-early {
     width: 60%;
     height: 45px;
-    border-radius: 5px;
+    border-radius: 2px;
     text-indent: 20px;
     border-style: none;
 }

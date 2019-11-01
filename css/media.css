@@ -1,4 +1,10 @@
-@media(max-width:730px){
+@media(max-width:885px){
+    .logo {
+        width: 20%;
+    }
+    .logo > img {
+        width: 100%;
+    }
     .main-top-wrapper, .main-bottom-wrapper {
         flex-direction: column;
     }
@@ -11,6 +17,9 @@
         text-align: center;
         margin: auto;
     }
+    main {
+        background-size: 400% 55%;
+    }
     .main-top-wrapper > .text > .input-wrapper {
         flex-direction: column;
         padding-right: 0;
@@ -22,8 +31,37 @@
         width: 95%;
         margin-top: 20px;
     }
+    .main-top-wrapper >.text > h1 {
+        font-size: 1.6em;
+    }
+    .main-top-wrapper > .text > p {
+        font-size: 1.0em;
+    }
+    .main-bottom-wrapper >.text > h1{
+        font-size: 1.0em;
+    }
+    .main-bottom-wrapper >.text {
+        padding: 40px 0px 0px 0px;
+    }
+    .main-bottom-wrapper >.text > p {
+        font-size: 1em;
+        text-align: left;
+        font-weight: normal;
+        width: 100%;
+    }
     #email {
         width: 95%;
+    }
+    .testimonial {
+        margin: auto;
+        margin-top: 10%;
+        width: 90%;
+        font-size: 0.7em;
+        text-align: left;
+    }
+    .testimonial p {
+        text-align: left;
+        font-weight: normal;
     }
     .early-access {
         flex-direction: column;
@@ -33,78 +71,28 @@
         margin: auto;
         text-align: center;
     }
+    .left-column {
+        font-size: 0.8em;
+    }
     .early-access > .left-column > p {
         margin: auto;
+        padding: 0 7%;
     }
     #email-early {
         margin-top: 15px;
+        height: 35px;
     }
     .early-access .btn {
         margin: auto;
         width: 60%;
         margin-top: 15px;
+        padding: 10px 0px;
     }
-    /* grid use not rly working well
-    .contact {
-        display: grid;
-        grid-template-columns: 1fr;
-        grid-template-rows: 100px 50px 50px 50px 50px;
-        align-items: center;
-        padding: 7% 3%;
-        padding-bottom: 3%;
-    }
-    .about {
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 4;
-        grid-row-end: 5;
-    }
-    .jobs {
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 5;
-        grid-row-end: 6;
-    }
-    .press {
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 6;
-        grid-row-end: 7;
-    } 
-    .blog {
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 7;
-        grid-row-end: 8;
-    }
-    .contact-us {
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 8;
-        grid-row-end: 9;
-    }
-    .terms {
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 9;
-        grid-row-end: 10;
-    }
-    .privacy {
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 10;
-        grid-row-end: 11;
-    }
-    .social {
-        grid-column-start: 1;
-        grid-column-end: 2;
-        grid-row-start: 11;
-        grid-row-end: 12;
-        justify-self: center;
-    }
-    */
     .contact {
         display: block;
+    }
+    .logo-contact {
+        padding-top: 30px;
     }
     .social {
         justify-content: center;
